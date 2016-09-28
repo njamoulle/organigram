@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+#content {
+            width: 160px;
+            height: 80px;
+            display: block;
+            position: absolute;
+            pointer-events: none;
+            text-align: left;
+            vertical-align: bottom;
+            margin-top: -100px;
+        }
+
+.box{
+    position:relative;
+    display:inline-block;
+    width: 358px;
+    height: 138px;
+}
+.imgBox{
+    width:100%; height:100%;
+    background-image: url("/assets/boxImg2.png");
+}
+.boxIcon{
+    position:absolute; 
+    top:15%; 
+    left:6%; 
+    height:50%; 
+}
+.boxCollapse{
+    position:absolute; 
+    top:7%; 
+    right:3%; 
+    cursor:pointer; 
+    border: 1px solid;
+    border-radius: 10px;
+}
+.boxDrillDown{
+    position:absolute; 
+    top:7%; 
+    right:11%; 
+    cursor:pointer; 
+    border: 1px solid;
+    border-radius: 10px;
+}
+.boxTitle{
+    position:absolute; 
+    top:21%; 
+    left:30%; 
+    font-size:30px; 
+    font-weight: bold;
+}
+.boxDescription{
+    position:absolute; 
+    top:47%; 
+    left:30%; 
+    font-size:20px;
+}

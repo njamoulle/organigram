@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TestOrganigram</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="http://cdn.syncfusion.com/14.2.0.28/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
+  <script src="http://cdn.syncfusion.com/js/assets/external/jquery.easing.1.3.min.js"></script>
+  <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+  <script src="http://cdn.syncfusion.com/14.2.0.28/js/web/ej.web.all.min.js "></script>
+  <!--<script src="http://borismoore.github.io/jsrender/jsrender.min.js"></script>-->
+  
+</head>
+<body>
+  <app-root>Loading...</app-root>
+  <script id="htmlTemplate" type="text/x-jsrender">
+    <div class="box">
+      <img class="imgBox"/>
+      <img class="boxIcon" src="/assets/me.jpg"/>
+      <div class="boxDrillDown e-icon e-list" data="{{:nameId}}"></div>
+      <div class="boxCollapse e-icon e-arrow-sans-right" data="{{:nameId}}"></div>
+      <span class="boxTitle">{{:title}}</span>
+      <span class="boxDescription">{{:description}}</span>
+    </div>
+  </script>
+</body>
+</html>
